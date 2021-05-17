@@ -18,7 +18,7 @@ def time():
 
 def remove():
     time1 = time()
-    if(time1 <= 31.0):
+    if(time1 <= 30.0):
         os.remove(path)
     else:
         b = 0
